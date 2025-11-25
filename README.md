@@ -1,3 +1,3 @@
-### cambridge-notes-template
+# cambridge-notes-template
 
 Template for typesetting my Cambridge notes.
