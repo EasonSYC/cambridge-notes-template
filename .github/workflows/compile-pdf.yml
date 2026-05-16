@@ -12,4 +12,4 @@ on:
 jobs:
   call-build:
     name: Call Reusable Workflow
-    uses: EasonSYC/latex-style-workflow/compile-pdf.yml@main
+    uses: EasonSYC/latex-style-workflow/.github/workflows/compile-pdf.yml@main
