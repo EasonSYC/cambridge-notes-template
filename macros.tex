@@ -1,0 +1,405 @@
+% Misc
+\renewcommand{\epsilon}{\varepsilon}
+\newcommand{\inverse}{^{-1}}
+
+\newcommand{\LHS}{\text{LHS}}
+\newcommand{\RHS}{\text{RHS}}
+
+\newcommand{\degree}{^{\circ}}
+
+\newcommand{\rightbar}[1]{\left.#1\right\vert}
+
+\newcommand{\notimplies}{\centernot\implies}
+\newcommand{\notimpliedby}{\centernot\impliedby}
+\newcommand{\notiff}{\centernot\iff}
+
+\newcommand{\bigland}{\bigwedge}
+\newcommand{\biglor}{\bigvee}
+
+% Sets
+\newcommand{\PP}{\mathbb{P}}
+\newcommand{\FF}{\mathbb{F}}
+
+\newcommand{\multiplicative}{^{\times}}
+\newcommand{\compactify}{_{\infty}}
+
+\newcommand{\powerset}{\mathcal{P}}
+\newcommand{\size}{\#}
+\renewcommand{\emptyset}{\varnothing}
+\newcommand{\compl}{^\complement}
+
+\newcommand{\nsubset}{\not\subset}
+
+% Sets - Number Sets
+\newcommand{\NN}{\mathbb{N}}
+\newcommand{\ZZ}{\mathbb{Z}}
+\newcommand{\QQ}{\mathbb{Q}}
+\newcommand{\RR}{\mathbb{R}}
+\newcommand{\CC}{\mathbb{C}}
+
+% Sets - Intervals
+\newcommand{\ccintv}[2]{\interval[scaled]{#1}{#2}}
+\newcommand{\ocintv}[2]{\linterval[scaled]{#1}{#2}}
+\newcommand{\cointv}[2]{\rinterval[scaled]{#1}{#2}}
+\newcommand{\oointv}[2]{\ointerval[scaled]{#1}{#2}}
+
+% Functions
+\DeclareMathOperator{\dom}{dom}
+\DeclareMathOperator{\img}{im}
+
+\DeclareMathOperator{\sign}{sign}
+\DeclareMathOperator{\identity}{Id}
+\newcommand{\indicator}{\mathbf{1}}
+\newcommand{\characteristic}{\chi}
+\newcommand{\diracdelta}{\delta}
+\newcommand{\kronecker}{\delta}
+\newcommand{\levicivita}{\epsilon}
+
+\newcommand{\functiondomain}[3]{
+    #1: #2 \to #3
+}
+
+\newcommand{\functionmap}[3]{
+    #1: #2 \mapsto #3
+}
+
+\newcommand{\function}[5]{
+    \begin{aligned}
+        #1: #2 &\to #3 \\
+        #4 &\mapsto #5
+    \end{aligned}
+}
+
+\renewcommand\pmtseparator{\ }
+\newcommand{\perm}[1]{\pmt*[#1]{(#1)}}
+\newcommand{\permverb}[2]{
+    \renewcommand{\pmtprintorder}{#1}
+    \pmtv*{#2}}
+
+% Functions - Missing Trigonometric & Hyperbolic functions
+\DeclareMathOperator{\arsinh}{arsinh}
+\DeclareMathOperator{\arcosh}{arcosh}
+\DeclareMathOperator{\artanh}{artanh}
+\DeclareMathOperator{\arcoth}{arcoth}
+\DeclareMathOperator{\arsech}{arsech}
+\DeclareMathOperator{\arcsch}{arcsch}
+
+% Functions - UK Notation
+\DeclareMathOperator{\cosec}{cosec}
+\DeclareMathOperator{\arccosec}{arccosec}
+\DeclareMathOperator{\cosech}{cosech}
+\DeclareMathOperator{\arcosech}{arcosech}
+
+% Functions - Exponential and Logarithmic Functions
+\DeclareMathOperator{\lb}{lb}
+
+% Functions - Legendre Transform
+\newcommand{\legendre}[1]{{#1}^{\ast}}
+\newcommand{\llegendre}[1]{{#1}^{\ast\ast}}
+
+% Number Theory
+\newcommand{\totient}{\varphi}
+\DeclareMathOperator{\gcf}{gcf}
+\DeclareMathOperator{\hcf}{hcf}
+\DeclareMathOperator{\lcm}{lcm}
+
+\DeclareMathOperator{\modulo}{mod}
+
+\newcommand{\nequiv}{\not\equiv}
+
+\newcommand{\divides}{\mid}
+\newcommand{\notdivides}{\nmid}
+
+% Algebra - Group Theory
+\DeclareMathOperator{\Aut}{Aut}
+\DeclareMathOperator{\Inn}{Inn}
+\DeclareMathOperator{\Out}{Out}
+\DeclareMathOperator{\End}{End}
+
+\DeclareMathOperator{\ord}{ord}
+\DeclareMathOperator{\Isom}{Isom}
+\DeclareMathOperator{\Sym}{Sym}
+\DeclareMathOperator{\Syl}{Syl}
+\DeclareMathOperator{\Fix}{Fix}
+\DeclareMathOperator{\Orb}{Orb}
+\DeclareMathOperator{\Stab}{Stab}
+\DeclareMathOperator{\ccl}{ccl}
+\newcommand{\trivialgp}{\mathbf{1}}
+\newcommand{\actson}{\curvearrowright}
+\newcommand{\subgroup}{\leq}
+\newcommand{\supgroup}{\geq}
+\newcommand{\normalsub}{\lhd}
+\newcommand{\normalsup}{\rhd}
+\newcommand{\isomorphic}{\cong}
+\newcommand{\notisomorphic}{\ncong}
+\newcommand{\mobius}{\mathcal{M}}
+
+% Algebra - Ring Theory
+\newcommand{\subring}{\leq}
+\newcommand{\supring}{\geq}
+\newcommand{\idealsub}{\lhd}
+\newcommand{\idealsup}{\rhd}
+
+% Algebra - Module Theory
+\newcommand{\submodule}{\leq}
+\newcommand{\supmodule}{\geq}
+
+\DeclareMathOperator{\Ann}{Ann}
+\DeclareMathOperator{\Fit}{Fit}
+
+% Algebra - Polynomials
+\DeclareMathOperator{\content}{c}
+
+% Geometry
+\newcommand{\CP}{\CC\PP}
+\newcommand{\RP}{\RR\PP}
+
+% Tensors
+\newcommand{\tens}[1]{\mathsf{#1}}
+
+% Optimisation
+
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+
+% Analysis
+\DeclareMathOperator*{\LUB}{LUB}
+\DeclareMathOperator*{\supremum}{supremum}
+\DeclareMathOperator*{\GLB}{GLB}
+\DeclareMathOperator*{\infimum}{infimum}
+
+\DeclareMathOperator*{\osc}{osc}
+
+% Analysis - Limits
+\newcommand{\notto}{\centernot\to}
+
+% Analysis - Big/Little O Notation
+
+\newcommand\littleO{
+    \underline{
+        \mathchoice
+            {{\scriptstyle\mathcal{O}}}
+            {{\scriptstyle\mathcal{O}}}
+            {{\scriptscriptstyle\mathcal{O}}}
+            {\scalebox{.6}{\(\scriptscriptstyle\mathcal{O}\)}}
+    }
+}
+\newcommand{\bigO}{\mathcal{O}}
+\newcommand{\bigTheta}{\Theta}
+\newcommand{\bigOmega}{\Omega}
+\newcommand{\littleOmega}{\omega}
+
+% Analysis - Infinity
+\newcommand{\plusinfty}{+\infty}
+\newcommand{\minusinfty}{-\infty}
+\newcommand{\pminfty}{\pm\infty}
+
+% Analysis - Differentiability Classes
+\newcommand{\diffClassSymb}{\mathcal{D}}
+\newcommand{\contClassSymb}{\mathcal{C}}
+\newcommand{\diffClass}[1]{\diffClassSymb^{#1}}
+\newcommand{\contClass}[1]{\contClassSymb^{#1}}
+\newcommand{\smoothClass}{\contClassSymb^{\infty}}
+\newcommand{\analyticClass}{\contClassSymb^{\omega}}
+
+% Analysis - Integration
+\newcommand{\partition}{\mathcal{P}}
+\newcommand{\upperSum}{\mathcal{U}}
+\newcommand{\lowerSum}{\mathcal{L}}
+\newcommand{\upperI}{I^{\ast}}
+\newcommand{\lowerI}{I_{\ast}}
+
+\newcommand{\upperInt}{\mathop{\mathpalette\tb@int{t}}\!\int}
+\newcommand{\lowerInt}{\mathop{\mathpalette\tb@int{b}}\!\int}
+
+\makeatletter
+\newcommand\tb@int[2]{%
+  \sbox\z@{$\m@th#1\int$}%
+  \if#2t%
+    \rlap{\hbox to\wd\z@{%
+      \hfil
+      \vrule width .35em height \dimexpr\ht\z@+1.4pt\relax depth -\dimexpr\ht\z@+1pt\relax
+      \kern.05em % a small correction on the top
+    }}
+  \else
+    \rlap{\hbox to\wd\z@{%
+      \vrule width .35em height -\dimexpr\dp\z@+1pt\relax depth \dimexpr\dp\z@+1.4pt\relax
+      \hfil
+    }}
+  \fi
+}
+\makeatother
+
+% https://tex.stackexchange.com/a/211132
+
+% Probability
+\newcommand{\eventSpace}{\mathcal{F}}
+\newcommand{\indp}{\perp\!\!\!\!\perp}
+\newcommand{\Conditional}[2]{\bound{#1 \,\middle|\, #2}}
+\newcommand{\Prob}{\mathbb{P}}
+\newcommand{\Expt}{\mathbb{E}}
+\DeclareMathOperator{\Var}{Var}
+\DeclareMathOperator{\Cov}{Cov}
+\DeclareMathOperator{\Corr}{Corr}
+
+% Probability - Markov Chain
+\newcommand{\leadto}{\rightarrow}
+\newcommand{\leading}{\leftarrow}
+\newcommand{\communicatewith}{\leftrightarrow}
+
+% Probability - Convergence
+\newcommand{\toProb}{\overset{\Prob}{\to}}
+\newcommand{\toAlmostSure}{\overset{\text{a.s.}}{\to}}
+\newcommand{\toDist}{\overset{\mathcal{D}}{\to}}
+
+% Probability - Distribution
+\DeclareMathOperator{\Bernoulli}{Ber}
+\DeclareMathOperator{\Binomial}{Bin}
+\DeclareMathOperator{\Multinomial}{M}
+\DeclareMathOperator{\Hypergeometric}{Hyp}
+\DeclareMathOperator{\MultivariateHypergeometric}{MHyp}
+\DeclareMathOperator{\Geometric}{Geo}
+\DeclareMathOperator{\NegativeBinomial}{NB}
+\DeclareMathOperator{\Poisson}{Poi}
+\DeclareMathOperator{\Normal}{\mathcal{N}}
+\DeclareMathOperator{\Exponential}{Exp}
+\DeclareMathOperator{\Uniform}{\mathcal{U}}
+\DeclareMathOperator{\Markov}{Markov}
+
+\newcommand{\sNormCdf}{\Phi}
+\newcommand{\sNormPdf}{\varphi}
+
+% Complex Numbers
+\newcommand{\conjugate}[1]{\overline{#1}}
+\newcommand{\conjstar}{^{\ast}}
+
+% Linear Algebra
+\DeclareMathOperator{\diag}{diag}
+\DeclareMathOperator{\adj}{adj}
+\DeclareMathOperator{\nul}{null}
+\DeclareMathOperator{\spn}{span}
+
+\newcommand{\basis}{\mathcal{B}}
+
+% Linear Algebra - Vector Spaces
+\newcommand{\subspace}{\leq}
+\newcommand{\supspace}{\geq}
+
+% Linear Algebra - Inner Product
+\newcommand{\inner}[3][]{\angBrac{#2, #3}_{#1}}
+
+% Linear Algebra - Matrices
+\newcommand{\identityM}{\vb{I}}
+\newcommand{\zeroM}{\vb{O}}
+\newcommand{\transpose}{^{\intercal}}
+\newcommand{\hermitian}{^{\dagger}}
+\newcommand{\perppl}{^{\perp}}
+
+% Linear Algebra - Matrix Groups
+\newcommand{\matrixset}{\mathcal{M}}
+
+\DeclareMathOperator{\GL}{GL}
+\DeclareMathOperator{\SL}{SL}
+\DeclareMathOperator{\Or}{O}
+\DeclareMathOperator{\SO}{SO}
+\DeclareMathOperator{\U}{U}
+\DeclareMathOperator{\SU}{SU}
+
+\newcommand{\PGL}{\PP\mathrm{GL}}
+\newcommand{\PSL}{\PP\mathrm{SL}}
+
+% Linear Algebra - Positive/Negative Definiteness
+\newcommand{\posDef}{\succ}
+\newcommand{\posDefEq}{\succeq}
+\newcommand{\negDef}{\prec}
+\newcommand{\negDefEq}{\preceq}
+
+% Linear Algebra - Basis Vectors
+\makeatletter
+\newcommand{\unitv@nostar}[1]{\vb{\hat{#1}}}
+\newcommand{\unitv@star}[1]{\vb*{\hat{#1}}}
+\newcommand{\unitv}{\@ifstar{\unitv@star}{\unitv@nostar}}
+\makeatother
+
+% \newcommand{\ihat}{\unitv{\ii}}
+% \newcommand{\jhat}{\unitv{\jj}}
+
+\newcommand{\ihat}{\textbf{\^{ı}}}
+\newcommand{\jhat}{\textbf{\^{ȷ}}}
+\newcommand{\khat}{\unitv{k}}
+
+% Theoretical Physics
+
+% Theoretical Physics - Classical Dynamics
+
+\DeclareMathOperator{\Gal}{Gal}
+\renewcommand{\AA}{\mathbb{A}}
+
+% Theoretical Physics - Dimensional Analysis
+
+\newcommand{\dimT}{\mathsf{T}}
+\newcommand{\dimL}{\mathsf{L}}
+\newcommand{\dimM}{\mathsf{M}}
+
+\newcommand{\dimLess}{\mathsf{1}}
+
+% Theoretical Physics - Quantum Mechanics
+
+\newcommand{\hilbertSpace}{\mathcal{H}}
+
+% Theoretical Computer Science
+
+% Theoretical Computer Science - Automata and Formal Languages
+
+\newcommand{\kstar}{^{\ast}}
+\newcommand{\kplus}{^{+}}
+\newcommand{\emptyword}{\varepsilon}
+\newcommand{\langacc}{\mathcal{L}}
+\DeclareMathOperator{\ecl}{ecl}
+
+% Paired Delimiters
+
+\makeatletter
+
+\DeclarePairedDelimiter{\bbrac@}{\llbracket}{\rrbracket}
+\newcommand{\bbrac}[1]{\bbrac@*{#1}}
+
+\DeclarePairedDelimiter{\ceil@}{\lceil}{\rceil}
+\newcommand{\ceil}[1]{\ceil@*{#1}}
+
+\DeclarePairedDelimiter{\floor@}{\lfloor}{\rfloor}
+\newcommand{\floor}[1]{\floor@*{#1}}
+
+\DeclarePairedDelimiter{\angBrac@}{\langle}{\rangle}
+\newcommand{\angBrac}[1]{\angBrac@*{#1}}
+
+\makeatother
+
+\newcommand{\set}[2]{\Bqty{\bound{#1 \,\middle|\, #2}}}
+
+\newcommand{\bound}[1]{\left.#1\right.}
+
+% Overrides
+
+\makeatletter
+
+\DeclarePairedDelimiter{\pqty@}{(}{)}
+\renewcommand{\pqty}[1]{\pqty@*{#1}}
+
+\DeclarePairedDelimiter{\bqty@}{[}{]}
+\renewcommand{\bqty}[1]{\bqty@*{#1}}
+
+\DeclarePairedDelimiter{\Bqty@}{\{}{\}}
+\renewcommand{\Bqty}[1]{\Bqty@*{#1}}
+
+\DeclarePairedDelimiter{\abs@}{\lvert}{\rvert}
+\renewcommand{\abs}[1]{\abs@*{#1}}
+
+\DeclarePairedDelimiter{\norm@}{\lVert}{\rVert}
+\renewcommand{\norm}[2][]{\norm@*{#2}_{#1}}
+
+\makeatother
+
+\renewcommand{\flatfrac}[2]{\mathopen{}\mathclose\bgroup\left.\kern-\nulldelimiterspace#1\middle\slash#2\aftergroup\egroup\right.\kern-\nulldelimiterspace}
+
+% https://github.com/Willie169/physics-patch/issues/7
